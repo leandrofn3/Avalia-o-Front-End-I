@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.listas {
+    list-style-type: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #0E6BA8;
+}
+
+header {
+    width: 20vw;
+    height: 100vh;
+    float: left;
+    background: linear-gradient(to bottom right, #001c55 0%, #00072d 100%);
+    position: absolute;
+}
+
+header figure{
+    margin: 40% auto 0 80px;  
+    
+}
+
+.menu {
+    text-align: center;
+    margin-top: 10px;
+}
+section {
+    position: absolute;
+    left: calc(23vw - 30px);
+    top: calc(23vh - 29px);
+    text-align: left;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#perfil {
+    border-radius: 100%;
+}
+
+h1, h3, h2, p, a {
+    margin-bottom: 5px;
+
+}
+
